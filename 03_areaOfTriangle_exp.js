@@ -5,7 +5,6 @@ var test = function(base, height,result){
 
 
 }
-var returnValue = test(40 , 32);
 var returnValue = test(45 , 34);
 
 console.log(returnValue);
