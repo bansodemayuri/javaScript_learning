@@ -42,3 +42,13 @@ console.log("num2<num3) ===> ",  num2<num3);
 console.log("num2<=num3) ===> ",  num2<=num3);
 console.log("num2>num3=====> ", num2>num3);
 console.log("num2>=num3=====> ", num2>=num3);
+
+var num2 = 50;
+var num3 = "50";
+console.log(`******* == operator ********`);
+var Result = num2 == num3; // 50 == 50
+
+console.log("num2==num3=====>", result);
+
+console.log("num2===num3=====>", num2===num3);
+
