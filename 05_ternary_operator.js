@@ -25,7 +25,7 @@ var num1 = -5;
     var result = num1%2==0 ? true : false;
     return result;
  }
- isEvenOrOdd(result);
+isEvenOrOdd();
 
 
 
