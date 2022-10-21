@@ -14,3 +14,19 @@ console.log(rohit);
 
 
 
+class Student{
+    constructor(rollNo, schoolName){
+        this.rollNo = rollNo;
+        this.schoolName = schoolName;
+    }
+}
+let s1 = new Student(123, " ABC");
+let s2 = new Student(345, "PQR");
+
+console.log(s1 instanceof Student);
+console.log(sachin instanceof Student);
+
+console.log(s1.rollNo, s1.schoolName);
+s1.rollNo = 567;
+delete s1.rollNo;
+console.log(s1);
