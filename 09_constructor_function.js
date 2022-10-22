@@ -12,3 +12,4 @@ let sona = new Person("Sona", "Mumbai", 19, "Female");
 
 console.log(sachin.country);
 console.log(riya.country);
+
