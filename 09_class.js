@@ -15,6 +15,7 @@ let rohit = new Person("Rohit Shram", "Mumbai", 32, "Male");
 console.log(sachin);
 console.log(rohit);
 
+
 sachin.details();
 
 
