@@ -6,7 +6,7 @@ function primeNumber(numberToCheck){
     }
     return true;
   }
-  
+  const array = [6, 7, 11, 23, 46, 77];
   console.log(primeNumber(11));
   console.log(primeNumber(9));
   console.log(primeNumber(29));
