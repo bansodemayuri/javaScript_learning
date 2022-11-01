@@ -31,3 +31,5 @@ console.log("====== Traversing set =======");
 for (const element of setOfNumbers) {
     console.log(element);
 }
+
+
