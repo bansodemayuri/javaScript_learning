@@ -1,9 +1,9 @@
-function do_assignment(callback){ //Prashant
+function do_assignment(callback) {
     console.log("I am Doing assignment and it is done now...");
     callback();
 }
 
-function copy_assignment(){ // Rohit
+function copy_assignment() {
     console.log("Hey bro.. Thank you. Let me copy");
 }
 
@@ -14,5 +14,7 @@ function display() {
     console.log("display function");
 }
 
-setInterval( display, 2000);
+setTimeout( display, 4000);
+
+setInterval(display, 2000);
 
