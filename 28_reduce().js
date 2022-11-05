@@ -4,3 +4,5 @@ let sum = arrayOfNumbers.reduce((value, runningTotal) => {
     return value + runningTotal;
 });
 console.log(sum);
+
+
