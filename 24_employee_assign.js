@@ -8,7 +8,6 @@ class Employee{
 
     }
   
-
 }
 const emp_anil=new Employee(22,"Anil","IT",50000,"TCS");
 const emp_radha=new Employee(33,"Radha","HR",74000,"Wipro");
@@ -56,6 +55,7 @@ for (const info of com_info) {
 }
 
 console.log("====================== Q.5. Salary Greater than equal to 50000 ======================");
+
 for (const info of com_info) {
     if (info.emp_salary >= 50000 && info.emp_dept==="IT" ) {
         console.log(` employ Id=${info.emp_id}    employ name=${info.emp_name}    employ dept=${info.emp_dept}    employ salary=${info.emp_salary}    employ company=${info.emp_company}`);
